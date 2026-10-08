@@ -19,8 +19,6 @@ git clone -q --depth 1 https://github.com/sariubi/craft-tools ~/craft-tools
 mkdir -p ~/bin && for f in ~/craft-tools/bin/*-cli.gz; do n=$(basename $f .gz); gunzip -c $f > ~/bin/$n; chmod +x ~/bin/$n; done
 ```
 
-La guida d'uso completa per Claude è in `skills/craft-tools/SKILL.md`.
-
 ## Licenze
 
 I programmi sono distribuiti con licenza MIT OR Apache-2.0 (vedi i file `LICENSE-*`). Il nome, il marchio e i loghi ArtCraft sono marchi dell'ArtCraft Team e non sono coperti da queste licenze.
