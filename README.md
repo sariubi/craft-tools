@@ -15,7 +15,7 @@ Versioni Linux x86_64 già compilate delle sette **Crafting Apps** open source d
 ## Installazione
 
 ```sh
-git clone -q --depth 1 https://github.com/millennio/craft-tools ~/craft-tools
+git clone -q --depth 1 https://github.com/sariubi/craft-tools ~/craft-tools
 mkdir -p ~/bin && for f in ~/craft-tools/bin/*-cli.gz; do n=$(basename $f .gz); gunzip -c $f > ~/bin/$n; chmod +x ~/bin/$n; done
 ```
 
